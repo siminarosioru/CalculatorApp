@@ -31,5 +31,11 @@ namespace CalculatorApp
         {
 
         }
+
+        //legam primul form (de homepage) de al doilea form(FormAbout.cs)
+        private void ButtonAboutForm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
