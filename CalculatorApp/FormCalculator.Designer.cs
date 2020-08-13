@@ -1,6 +1,6 @@
 ﻿namespace CalculatorApp
 {
-    partial class FormAbout
+    partial class FormCalculator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,28 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelAbout = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // labelAbout
+            // label1
             // 
-            this.labelAbout.AutoSize = true;
-            this.labelAbout.Location = new System.Drawing.Point(81, 79);
-            this.labelAbout.Name = "labelAbout";
-            this.labelAbout.Size = new System.Drawing.Size(471, 60);
-            this.labelAbout.TabIndex = 0;
-            this.labelAbout.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului About in momentul" +
-    " in care utilizatorul  il  apasa\r\n\r\n";
-            this.labelAbout.Click += new System.EventHandler(this.label1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(66, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(495, 40);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului Calculator in mom" +
+    "entul in care utilizatorul il apasa ";
             // 
-            // FormAbout
+            // FormCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelAbout);
-            this.Name = "FormAbout";
-            this.Text = "FormAbout";
+            this.Controls.Add(this.label1);
+            this.Name = "FormCalculator";
+            this.Text = "FormCalculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -57,6 +56,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelAbout;
+        private System.Windows.Forms.Label label1;
     }
 }

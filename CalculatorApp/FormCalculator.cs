@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace CalculatorApp
 {
-    public partial class FormAbout : Form
+    public partial class FormCalculator : Form
     {
-        public FormAbout()
+        public FormCalculator()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
