@@ -34,12 +34,13 @@
             // labelAbout
             // 
             this.labelAbout.AutoSize = true;
+            this.labelAbout.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.labelAbout.Location = new System.Drawing.Point(81, 79);
             this.labelAbout.Name = "labelAbout";
-            this.labelAbout.Size = new System.Drawing.Size(471, 60);
+            this.labelAbout.Size = new System.Drawing.Size(484, 60);
             this.labelAbout.TabIndex = 0;
-            this.labelAbout.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului About in momentul" +
-    " in care utilizatorul  il  apasa\r\n\r\n";
+            this.labelAbout.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului About e in moment" +
+    "ul in care utilizatorul  il  apasa\r\n\r\n";
             this.labelAbout.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormAbout

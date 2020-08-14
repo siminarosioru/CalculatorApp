@@ -34,12 +34,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Location = new System.Drawing.Point(66, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(495, 40);
+            this.label1.Size = new System.Drawing.Size(508, 40);
             this.label1.TabIndex = 0;
-            this.label1.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului Calculator in mom" +
-    "entul in care utilizatorul il apasa ";
+            this.label1.Text = "afisarea informatiilor pentru utilizator: \r\nactivarea butonului Calculator e in m" +
+    "omentul in care utilizatorul il apasa ";
             // 
             // FormCalculator
             // 
