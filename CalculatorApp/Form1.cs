@@ -16,6 +16,8 @@ namespace CalculatorApp
         //adaugam variabila
         FormAbout formAbout;
         FormCalculator formCalculator;
+
+        //constructor
         public FormHomepage()
         {
             InitializeComponent();
