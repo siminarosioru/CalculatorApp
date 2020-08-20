@@ -33,16 +33,6 @@
             ButtonAboutForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ButtonCalculatorForm
-            // 
-            this.ButtonCalculatorForm.Location = new System.Drawing.Point(154, 82);
-            this.ButtonCalculatorForm.Name = "ButtonCalculatorForm";
-            this.ButtonCalculatorForm.Size = new System.Drawing.Size(154, 87);
-            this.ButtonCalculatorForm.TabIndex = 8;
-            this.ButtonCalculatorForm.Text = "Calculator";
-            this.ButtonCalculatorForm.UseVisualStyleBackColor = true;
-            this.ButtonCalculatorForm.Click += new System.EventHandler(this.ButtonCalculatorForm_Click);
-            // 
             // ButtonAboutForm
             // 
             ButtonAboutForm.Location = new System.Drawing.Point(142, 223);
@@ -52,6 +42,16 @@
             ButtonAboutForm.Text = "About";
             ButtonAboutForm.UseVisualStyleBackColor = true;
             ButtonAboutForm.Click += new System.EventHandler(this.ButtonAboutForm_Click);
+            // 
+            // ButtonCalculatorForm
+            // 
+            this.ButtonCalculatorForm.Location = new System.Drawing.Point(154, 82);
+            this.ButtonCalculatorForm.Name = "ButtonCalculatorForm";
+            this.ButtonCalculatorForm.Size = new System.Drawing.Size(154, 87);
+            this.ButtonCalculatorForm.TabIndex = 8;
+            this.ButtonCalculatorForm.Text = "Calculator";
+            this.ButtonCalculatorForm.UseVisualStyleBackColor = true;
+            this.ButtonCalculatorForm.Click += new System.EventHandler(this.ButtonCalculatorForm_Click);
             // 
             // FormHomepage
             // 

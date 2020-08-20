@@ -24,7 +24,7 @@ namespace CalculatorApp
             formAbout = new FormAbout();
             formCalculator = new FormCalculator();
             formAbout.Visible = false;
-            formCalculator.Visible = false;        
+            formCalculator.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)

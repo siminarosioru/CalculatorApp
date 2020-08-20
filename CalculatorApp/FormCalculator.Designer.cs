@@ -71,6 +71,11 @@
             0,
             0,
             0});
+            this.numericUpDownTermen2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownTermen2.Name = "numericUpDownTermen2";
             this.numericUpDownTermen2.Size = new System.Drawing.Size(162, 26);
             this.numericUpDownTermen2.TabIndex = 3;

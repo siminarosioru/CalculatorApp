@@ -64,10 +64,20 @@ namespace CalculatorApp
             decimal termen1 = numericUpDownTermen1.Value;
             decimal termen2 = numericUpDownTermen2.Value;
 
-            //declararea variabilei locale + calcul
-            decimal rezultat = termen1 / termen2;
-            //afisarea rezultatului
-            textBoxRezultat.Text = rezultat.ToString();
+            try
+            {
+                //declararea variabilei locale + calcul
+                decimal rezultat = termen1 / termen2;
+                //afisarea rezultatului
+                textBoxRezultat.Text = rezultat.ToString();
+            }
+            catch
+            {
+                string message = "do not divide by 0";
+                string title = "divide by 0";
+                //afisarea + fixarea exceptiei
+                MessageBox.Show(message, title);
+            }
         }
     }
 }
