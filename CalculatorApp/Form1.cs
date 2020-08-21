@@ -42,7 +42,14 @@ namespace CalculatorApp
             if (formCalculator.Visible == true)
                 formCalculator.Visible = false;
             else
+            {
+                //verificam daca formCalculator a fost inchis(disposed) -> apoi reinitializam
+                if (formCalculator.IsDisposed)
+                    //reinitializare
+                    formCalculator = new FormCalculator();
+
                 formCalculator.Visible = true;
+            }
         }
 
         //legam primul form (de homepage) de al doilea form(FormAbout.cs)
@@ -56,7 +63,14 @@ namespace CalculatorApp
             if (formAbout.Visible == true)
                 formAbout.Visible = false;
             else
+            {
+                //verificam daca formAbout a fost inchis(disposed) -> apoi reinitializam
+                if (formAbout.IsDisposed) 
+                    //reinitializare
+                    formAbout = new FormAbout();
+                
                 formAbout.Visible = true;
+            }
         }
     }
 }
