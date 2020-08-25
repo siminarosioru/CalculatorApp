@@ -86,5 +86,11 @@ System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
                 e.Cancel = true;
             }
         }
+
+        //definirea functiei pentru butonul Close
+        private void butonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

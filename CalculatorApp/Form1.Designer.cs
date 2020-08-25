@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.Button ButtonAboutForm;
             this.ButtonCalculatorForm = new System.Windows.Forms.Button();
+            this.butonClose = new System.Windows.Forms.Button();
             ButtonAboutForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,11 +54,22 @@
             this.ButtonCalculatorForm.UseVisualStyleBackColor = true;
             this.ButtonCalculatorForm.Click += new System.EventHandler(this.ButtonCalculatorForm_Click);
             // 
+            // butonClose
+            // 
+            this.butonClose.Location = new System.Drawing.Point(335, 223);
+            this.butonClose.Name = "butonClose";
+            this.butonClose.Size = new System.Drawing.Size(142, 89);
+            this.butonClose.TabIndex = 10;
+            this.butonClose.Text = "Close";
+            this.butonClose.UseVisualStyleBackColor = true;
+            this.butonClose.Click += new System.EventHandler(this.butonClose_Click);
+            // 
             // FormHomepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(489, 373);
+            this.Controls.Add(this.butonClose);
             this.Controls.Add(ButtonAboutForm);
             this.Controls.Add(this.ButtonCalculatorForm);
             this.Name = "FormHomepage";
@@ -69,6 +81,7 @@
 
         #endregion
         private System.Windows.Forms.Button ButtonCalculatorForm;
+        private System.Windows.Forms.Button butonClose;
     }
 }
 
