@@ -25,6 +25,10 @@ namespace CalculatorApp
             formCalculator = new FormCalculator();
             formAbout.Visible = false;
             formCalculator.Visible = false;
+
+            //inainte de a inchide aplicatia trebuie sa salvezi
+            this.FormClosing += new
+System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -70,6 +74,16 @@ namespace CalculatorApp
                     formAbout = new FormAbout();
                 
                 formAbout.Visible = true;
+            }
+        }
+
+        //metoda Close() care inchide aplicatia + fixare -> Application.Exit();
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (DialogResult.No == MessageBox.Show("Exit without saving changes?",
+                "Data Not Saved", MessageBoxButtons.YesNo))
+            {
+                e.Cancel = true;
             }
         }
     }
