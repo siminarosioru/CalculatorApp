@@ -143,6 +143,7 @@
             this.Controls.Add(this.labelCalculator);
             this.Name = "FormCalculator";
             this.Text = "FormCalculator";
+            this.Load += new System.EventHandler(this.FormCalculator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTermen1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTermen2)).EndInit();
             this.ResumeLayout(false);
