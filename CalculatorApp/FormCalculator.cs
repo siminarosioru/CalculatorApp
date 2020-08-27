@@ -160,8 +160,20 @@ namespace CalculatorApp
 
             //afisarea informatiei
             MessageBox.Show("Termen 1: " + obiectCalculatorHelper.getTermen1() + Environment.NewLine
-                + "Termen 2: " + obiectCalculatorHelper.getTermen2() + Environment.NewLine
-                + "Calcul impartire: " + obiectCalculatorHelper.calculImpartire());
+                + "Termen 2: " + obiectCalculatorHelper.getTermen2() + Environment.NewLine);
+
+            //rezolvarea exceptiei
+            if(termen2 == 0)
+            {
+                string message = "do not divide by 0";
+                string title = "divide by 0";
+                //afisarea + fixarea exceptiei
+                MessageBox.Show(message, title);
+            }
+            else
+            {
+                MessageBox.Show("Calcul impartire: " + obiectCalculatorHelper.calculImpartire());
+            }
         }
 
         private void FormCalculator_Load(object sender, EventArgs e)

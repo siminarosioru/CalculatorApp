@@ -27,7 +27,7 @@ namespace CalculatorApp
             termen2 = Termen2;
         }
 
-        //accesarea membriloe privati => get() method
+        //accesarea membrilor privati => get() method
         public decimal getTermen1()
         {
             //returneaza valoarea termenului 1(membrul privat)
