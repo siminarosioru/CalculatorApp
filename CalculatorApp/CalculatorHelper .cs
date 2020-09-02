@@ -60,7 +60,10 @@ namespace CalculatorApp
         //crearea functiei pentru impartire
         public decimal calculImpartire()
         {
-            return (termen1 / termen2);
+            if(termen2  != 0)
+                return termen1 / termen2;
+            else
+                return - 1;
         }
     }
 }
