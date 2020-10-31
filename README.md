@@ -5,3 +5,9 @@ This project is a simple calculator with basic functions(addition, subtraction, 
 
 # User Interface Design
 ![](Images/Homepage.png)
+
+When you choosed Calculator button:
+![](Images/FormCalculator.png)
+
+When you choosed About button:
+![](Images/FormAbout.png)
